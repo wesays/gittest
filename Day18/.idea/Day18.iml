@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_07动态代理案例01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_06反射回顾" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_10Druid连接池" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_05自定义连接池" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_04预编译对象" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_02登录案例" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_03预编译对象" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_11数据源工具类" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_09C3P0连接池" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Code/_08动态代理案例02" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="c3p0-0.9.5.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="JUnit4">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

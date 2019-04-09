@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<c3p0-config>
+  <!--默认配置-->
+  <default-config>
+    <!--数据库连接参数-->
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/day18</property>
+    <property name="user">root</property>
+    <property name="password">root</property>
+
+    <!--连接池参数-->
+    <!--初始连接数-->
+    <property name="initialPoolSize">5</property>
+    <!--最大连接数-->
+    <property name="maxPoolSize">10</property>
+    <!--最大等待时间-->
+    <property name="checkoutTimeout">2000</property>
+  </default-config>
+
+  <named-config name="java101">
+    <!--数据库连接参数-->
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/day18</property>
+    <property name="user">root</property>
+    <property name="password">root</property>
+
+    <!--连接池参数-->
+    <!--初始连接数-->
+    <property name="initialPoolSize">3</property>
+    <!--最大连接数-->
+    <property name="maxPoolSize">8</property>
+    <!--最大等待时间-->
+    <property name="checkoutTimeout">3000</property>
+  </named-config>
+</c3p0-config>
